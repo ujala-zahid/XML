@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<start>
+<patientarrives>
+    When you arrive at the ED on your own and not in an ambulance, you will first go through a triage process.
+  <registeredpatient>
+      Region
+      	Registered patients per fully qualified GP FTE
+       South West	2023
+     East of England	2478
+      North West	2244
+      South East	2367
+   <availablenurse>
+    nurseAiman
+    <recordhealthcondition>
+       After the nurse records the patient's health condition, the patient waits for an available doctor. The patient then receives an assignment to the next available
+    <availabledoctor>
+     <waitforavailabledoctar>
+       doctarArsalan.
+      </waitforavailabledoctar>
+    <assignpatienttodoctor>
+      <needfollowup>
+        they are booked back-to-back-to-back with patient appointments, and if they spend extra time with one patient, it just makes them late for the next one, and it snowballs from there.
+      <arrangeappointment>
+          Some can cure an illness by killing or halting the spread of invading germs, such as bacteria and viruses
+         <needmedication>
+           <givepatientprescription>
+                 The superscription includes the date the prescription order is written; the name, address, weight, and age of the patient; and the Rx (Take)
+            </givepatientprescription>
+           </needmedication>
+           <patientleaves>
+              Poor experiences with providers who rush and lack listening skills are a top reason patients leave. 
+            </patientleaves>
+        </arrangeappointment>
+       </needfollowup>
+     </assignpatienttodoctor>
+    </availabledoctor>
+      <assignpatienttodoctor>
+         Physician-patient panels
+    Identify a patient's main physician provider by looking at the number of visits they've had with a generalist or medical subspecialist over a period of time. 
+    Demographic and visit characteristics
+   Consider factors such as age, gender, and whether the patient is new or seeking help for an acute problem. For example, patients who are younger than 65, male, or new patients are more likely to be assigned to a physician assistant (PA). 
+         </assignpatienttodoctor>
+     </recordhealthcondition>
+     <waitforavailablenurse>
+     DrAsim
+      </waitforavailablenurse>
+    </availablenurse>
+  <registerpatient>
+     RS:1000
+  </registerpatient>
+   </registeredpatient>
+</patientarrives>
+</start>
